@@ -1,0 +1,9 @@
+- Ambiente de Produção: Servidor onde roda o site
+
+- Deploy: Subir o código da máquina para o ambiente de produção
+
+- StakeHolder: Parte interessada/quem está contratando o serviço
+
+- Analise de requisitos: Levantamento de necessidades do produto por parte do stakeHolder
+
+- Alt + z = Quebra de linha no vscode pra vizualizar tudo de uma vez
