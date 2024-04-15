@@ -1,0 +1,17 @@
+* 3 erros principais:
+- ReferenceError (Referencia): Chamou alguém que não existe
+- Sintaxe: Erro de digitação (Ele dirá qual o arquivo e qual a linha)
+- Type (Tipo): Erro de violação do javaScript (ex: tentar mudar uma variável constante)
+
+fn+F12 = abre aba de desenvolvedor
+
+* Aba NetWork/Redes: Vai dizer se foi possível carregar todos os arquivos
+- se estiver algum arquivo com linha vermelha quer dizer que o arquivo não foi encontrado
+- Aba status: 
+	se o cógido = 200 = sucesso
+	se o cód = 404 = erro (não encontrado)
+	cod 500 = erro interno do servidor(indisponível)
+	cod 403/401 = erro de acesso negado
+
+Caso queira abrir a versão online do vscode no github, basta acrescentar o 1s do .com na url do github
+ex: https://github1s.com/fga-eps-mds/2024-1-GEROcuidado-Doc
