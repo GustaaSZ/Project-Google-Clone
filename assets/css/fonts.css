@@ -1,0 +1,12 @@
+/* Configuração pra carregar uma fonte externa */
+@font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 500;
+    src: url("../fonts/roboto/Roboto-Medium.ttf");
+}

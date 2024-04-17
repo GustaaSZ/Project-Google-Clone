@@ -1,0 +1,7 @@
+
+1º) Alvo, se for = * quer dizer q é tudo Este alvo, se for para uma class usa-se o '.', se for para um id, usa-se um # 
+2º) Estilo {}, se for aplicado a '*' tudo receberá esse estilo
+3º) propiedade :, neste caso foi color e atinge a cor dos textos
+4º) Valor, neste caso foi red -->
+5º) decalração, dentro de um estilo, pode-se ter várias declarações 
+6º) decalração, dentro de um estilo, pode-se ter várias declarações 
