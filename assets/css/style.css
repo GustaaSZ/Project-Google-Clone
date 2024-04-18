@@ -1,8 +1,18 @@
 /*@import url(./normalize.css);*/
 
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: Roboto;
     font-weight: 400;
+    font-size: 14px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 /* Adicionando configs para as tags <ul> */
@@ -10,6 +20,8 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 20px;
 }
 
 /* Adicionando cor para as tags <a> */
@@ -25,6 +37,9 @@ footer  {
     & a {
         color: #70757A;
     }
+    & nav{
+        display: none;
+    }
 }
 
 /* Adicionando uma responsividade, se o tamanho da tela for 768px...*/
@@ -32,5 +47,12 @@ footer  {
     body {
         font-family: Arial;
         font-weight: initial;
+    }
+    footer {
+        padding: 10px;
+        & nav{
+            display: flex;
+            justify-content: space-between;
+        }
     }
 }
