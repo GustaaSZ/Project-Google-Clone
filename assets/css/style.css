@@ -15,6 +15,59 @@ body {
     height: 100vh;
 }
 
+#profile {
+    position: relative;
+}
+
+#avatar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#apps{
+    border-radius: 50%;
+    position:initial ;
+    top: 1px;
+    left: 1px;
+    
+}
+
+header {
+    margin: 15px;
+    & ul{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        & li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+/* Estilizando a main */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & form{
+        & > div{
+            margin: 29px;
+            border: #dfe1e5 1px solid;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            & input{
+                border: none;
+                outline: none;
+            }
+        }
+    }
+}
+
 /* Adicionando configs para as tags <ul> */
 ul {
     list-style: none;
@@ -37,8 +90,17 @@ footer  {
     & a {
         color: #70757A;
     }
+    & p{
+        padding: 10px;
+        margin: 0;
+    }
     & nav{
-        display: none;
+        
+        border-top: #DADCE0 1px solid;
+        padding: 10px;
+        & ul{
+            display: none;
+        }
     }
 }
 
@@ -48,11 +110,20 @@ footer  {
         font-family: Arial;
         font-weight: initial;
     }
+
+    /* Adicionando uma linha abaixo do gmail e imagens quando o mouse passar */
+    a:hover{
+        text-decoration: underline; 
+    }
+
     footer {
-        padding: 10px;
         & nav{
             display: flex;
             justify-content: space-between;
+            & ul{
+                display: flex;
+            }
         }
+        
     }
 }
